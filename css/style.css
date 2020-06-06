@@ -1,0 +1,10 @@
+button {
+    margin: 3px;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

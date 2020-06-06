@@ -52,7 +52,7 @@ The following milestones have been eastablished. Additional instructions will be
 - **Milestone 1 due by Thursday, May 21st, 2920 by 10:30 AM (10%)**: This milestone will have students submit an overview of their project in Canvas. Students will provide a thorough overview of the application and must include information about what the site will do, the various pages involved and any other information that helps set the bounds for the project. This milestone will be used to assess the student's final work to make sure they developed what they specified to build. Only one person from a two person team needs to turn this assignment in on Canvas.
 - **Milestone 2 due by Tuesday, June 2nd, by 10:30 AM (20%)**: This milestone will have students demonstrate that they have put together the database and associated tables, and have developed an overall framework of code for their application.
 - **Milestone 3 due by Tuesday, June 9th, by 10:30 AM (20%)**: This milestone will expect that students have completed at least 50% of the project.
-- **Milestone 4 due by Tuesday, June 15th, by 10:30 AM (20%)**: This milestone will expect that students have completed at least 75% of the project.
+- **Milestone 4 due by Tuesday, June 16th, by 10:30 AM (20%)**: This milestone will expect that students have completed at least 75% of the project.
 - **Milestone 5 due on Thursday, June 18th, at 10:00 AM (30%)**: Students will present their projects to the class. The entire application must be fully functional and meet all of the criteria specified under **Project Requirements**.
 
 ## Grading Rubric
