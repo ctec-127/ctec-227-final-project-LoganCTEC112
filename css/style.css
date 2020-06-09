@@ -8,3 +8,40 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.orgDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+}
+
+.card p, .card hr {
+    padding: 5px;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.card a {
+    margin: auto;
+}

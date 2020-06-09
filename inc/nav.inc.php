@@ -135,7 +135,7 @@ if (is_post()){
             }
             break;
         default:
-            # code...
+            echo "<div>Something went wrong.. Please try again.</div>";
             break;
     }
 }
