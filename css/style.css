@@ -1,5 +1,17 @@
-button {
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    z-index: 1;
+    margin: 0;
+    font-family: 'Arvo', serif;
+}
+
+.btn {
     margin: 3px;
+}
+
+.row {
+    margin: 20px;
 }
 
 .modal {
@@ -15,6 +27,37 @@ footer {
     width: 100%;
 }
 
+
+/* #region Home Page */
+
+#welcomeText {
+    text-align: center;
+    padding: 20px;
+}
+
+.cityimg img {
+    height: 75vh;
+    width: 100%;
+    filter: sepia(75%);
+    border-radius: 15%;
+}
+
+#homeTextArea {
+    font-size: 1.2rem;
+}
+.homePage {
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* #endregion */
+
+/* #region Reviews Page */
+.reviewsPage {
+    margin: auto;
+    padding-top: 20px;
+}
+
 .orgDisplay {
     display: flex;
     align-items: center;
@@ -23,19 +66,25 @@ footer {
 
 .card {
     width: 300px;
-    height: auto;
+    height: 400px;
     padding: 5px;
     margin: 10px;
+    display: grid;
+    grid-template-rows: 50% 25% 25%;
 }
 
 .card p, .card hr {
     padding: 5px;
+    padding-right: 7px;
 }
 
 .card h2 {
     text-align: center;
 }
 
+.cardImg {
+    display: flex;
+}
 .card img {
     width: 150px;
     height: 150px;
@@ -45,3 +94,59 @@ footer {
 .card a {
     margin: auto;
 }
+
+.reviewCard {
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: white;
+    background-color: 	rgb(52, 58, 64);
+    box-shadow: -3px 3px rgb(41, 40, 40);
+    display: grid;
+    grid-template-areas: "postedby postedon orgname" "title title title" "description description description";
+}
+
+.postedBy {
+    grid-area: postedby;
+}
+
+.orgName {
+    grid-area: orgname;
+}
+
+.reviewDescription {
+    grid-area: description;
+}
+
+.reviewTitle {
+    grid-area: title;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.postedOn {
+    grid-area: postedon;
+}
+
+.reviewForm {
+    width: 750px;
+    max-width: 1000px;
+}
+
+/* #endregion */
+
+/* #region Write Page */
+
+.writePage {
+    margin: auto;
+}
+select {
+    padding: 2px;
+}
+#reviewForm {
+    border: 2px solid rgb(52, 58, 64);
+    padding: 20px;
+}
+/* #endregion */
+

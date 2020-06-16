@@ -4,14 +4,11 @@ require 'inc/header.inc.php';
 require 'inc/functions.inc.php';
 require 'inc/nav.inc.php';
 
-// use session to ensure user is logged in
-
-// pull info from database to display profile
-
-// Check update-record for guidance
-
-echo "<p>Page in construction, check back later!</p>";
-
+if (!isset($_SESSION['username'])) {
+    echo '<div class="alert alert-warning" role="alert">Please log in or Register first!</div>"';
+} else {
+    echo '<div class="alert alert-info role="alert">This page is under construction, check back later.</div>';
+}
 
 
 require 'inc/footer.inc.php';
